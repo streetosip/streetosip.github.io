@@ -1,0 +1,47 @@
+html, body {
+	overflow: hidden;
+}
+* {
+	margin: 0;
+	padding: 0;
+}
+.headn {
+	background-color: #009f00;
+	height: 150px;
+	line-height: 150px;
+}
+#head_text {
+	font-size: 45px;
+	color: #ffefcf;
+	text-align: center;
+	vertical-align: middle;
+}
+#map {
+	width: 100%;
+	padding-top: 5px;
+	position: relative;
+	height: 1500px;
+}
+#next {
+	text-decoration: none;
+}
+#text_br {
+	word-break: break-all;
+	font-size: 15px;
+}
+p {
+	line-height: 110%;
+	font-size: 20px;
+}
+@media (min-width: 0px) and (max-width: 1200px) {
+#map {
+	height: 2500px;
+}
+#text_br {
+	font-size: 25px;
+	line-height: 110%;
+}
+p {
+	font-size: 30px;
+}
+}
